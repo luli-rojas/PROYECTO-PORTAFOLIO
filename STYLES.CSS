@@ -260,3 +260,38 @@ header{
      color: var(--color);
      text-decoration: none;
  }
+
+ /*HERO*/
+.inicio { 
+    position: relative;   
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 5%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.inicio-contenido { 
+    width: 60%;
+ 
+}
+.inicio-contenido h1 { 
+    font-style: normal;
+    font-size: 3em;
+}
+.inicio-contenido p { 
+    font-style: normal;
+    font-size: 1em;
+    color: #555;
+}
+
+.inicio-contenido span { 
+    font-style: normal;
+    font-size: 1em;
+    color: #000000;
+    font-weight: bold;
+    
+}
