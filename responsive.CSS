@@ -1,0 +1,120 @@
+/* Para pantallas de 1440px */
+@media (max-width: 1440px) {
+    .inicio {
+      padding: 80px 50px;
+    }
+    .inicio-contenido h1 {
+      font-size: 2.5em;
+    }
+  }
+  
+  /* Para pantallas de 1024px */
+  @media (max-width: 1024px) {
+    header {
+      height: 70px;
+      padding: 5px 5%;
+    }
+    .inicio {
+      padding: 70px 40px;
+    }
+    .inicio-contenido h1 {
+      font-size: 2.2em;
+    }
+  }
+  
+  /* Para pantallas de 768px */
+  @media (max-width: 768px) {
+    header {
+      height: 60px;
+      padding: 5px 5%;
+    }
+    .inicio {
+      padding: 60px 30px;
+      flex-direction: column;
+      text-align: center;
+    }
+    .inicio-contenido {
+      width: 100%;
+    }
+    .inicio-contenido h1 {
+      font-size: 2em;
+    }
+    .about, .habilidades, .especializacion, .servicios, .contacto {
+      flex-direction: column;
+      align-items: center;
+      padding: 5% 2%;
+    }
+    .img-contenedor, .informacion {
+      width: 100%;
+    }
+    .contenedor {
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px;
+    }
+    .especializacion-items, .servicios-items {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .portafolio-con-img {
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+    }
+    .contacto-contenedor {
+      flex-direction: column;
+    }
+    .contacto-contenido, .formulario {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Para pantallas de 425px */
+  @media (max-width: 425px) {
+    header {
+      height: 55px;
+      padding: 5px 5%;
+    }
+    .inicio {
+      padding: 50px 20px;
+    }
+    .inicio-contenido h1 {
+      font-size: 1.8em;
+    }
+    .about, .habilidades, .especializacion, .servicios, .contacto {
+      padding: 5% 1%;
+    }
+  }
+  
+  /* Para pantallas de 375px */
+  @media (max-width: 375px) {
+    header {
+      height: 50px;
+      padding: 5px 5%;
+    }
+    .inicio {
+      padding: 40px 15px;
+    }
+    .inicio-contenido h1 {
+      font-size: 1.6em;
+    }
+    .about, .habilidades, .especializacion, .servicios, .contacto {
+      padding: 5% 1%;
+    }
+  }
+  
+  /* Para pantallas de 320px */
+  @media (max-width: 320px) {
+    header {
+      height: 45px;
+      padding: 5px 5%;
+    }
+    .inicio {
+      padding: 30px 10px;
+    }
+    .inicio-contenido h1 {
+      font-size: 1.4em;
+    }
+    .about, .habilidades, .especializacion, .servicios, .contacto {
+      padding: 5% 1%;
+    }
+  }
