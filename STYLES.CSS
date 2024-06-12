@@ -152,3 +152,70 @@ a.subrayado {
     color: var(--color);
     
  }
+
+ /*ABOUT*/
+
+.about  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+
+
+.img-contenedor {
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-contenedor img {
+    width: 100%;
+    height: 100%;
+}
+
+.informacion {
+    flex: 2;
+    padding: 20px;
+    position: relative;  
+}
+
+
+
+ .informacion h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+ }
+
+ .informacion h2 {
+    margin: 10px 0;
+    color: var(--color);
+    font-size: 18px;
+    
+ }
+
+ .informacion p {
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.6;
+    
+ }
+
+ .button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--color);
+    text-decoration: none;
+    margin-top: 20px;
+    border: none;
+ }
+ .button:hover {
+    color: var(--color);
+    background-color: #8c9ce4;
+ }
